@@ -1,0 +1,15 @@
+# 统一换行符，避免 Windows/macOS/Linux 混用
+* text=auto
+
+# 代码/脚本统一 LF（GitHub Actions 在 Linux 运行）
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+
+# PowerShell 用 CRLF
+*.ps1 text eol=crlf

@@ -1,0 +1,6 @@
+# literature-lab dependencies (Python >= 3.10)
+# Keep this file ASCII-only: pip reads it using the system locale encoding,
+# and Chinese comments break install on GBK/cp936 Windows.
+pyyaml>=6.0
+feedparser>=6.0
+pdfminer.six>=20231228

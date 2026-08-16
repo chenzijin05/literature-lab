@@ -1,0 +1,14 @@
+# 私有/临时文件
+data/raw.jsonl
+library/
+digest/summaries/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+*.log
+config/config.local.yaml
+config/preferences.local.json
+
+# 保留（提交）：data/seen.json、data/index.json、data/methods.json、data/journal_metrics.csv、digest/*.md、config/preferences.json

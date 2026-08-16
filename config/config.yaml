@@ -1,0 +1,59 @@
+# literature-lab 配置模板。复制为 config.local.yaml 可覆盖本地私有项。
+profile:
+  researcher: "课题组"
+  email: ""            # 填邮箱可提高 OpenAlex/Crossref/Semantic Scholar 限流额度
+  keywords:            # 主题关键词（会被检索）
+    - "diabetes comorbidity"
+  methods:             # 关注的方法/统计模型（会被检索，命中加权更高）
+    - "machine learning"
+  databases:           # 关注的数据库/数据类型（会被检索，命中加权）
+    - "UK Biobank"
+  negative_keywords:   # 排除词（命中直接降分）
+    - "case report"
+
+sources:
+  pubmed:            { enabled: true,  max_results: 50 }
+  openalex:          { enabled: true,  max_results: 50 }
+  crossref:          { enabled: true,  max_results: 50 }
+  semantic_scholar:  { enabled: false, max_results: 30 }   # 无 key 时限流，建议按需开启
+  wos:
+    enabled: false
+    api_key: ""      # Clarivate Expanded API key；留空则跳过
+    base_url: "https://api.clarivate.com/apis/wos-starter/v1"
+  wechat_rss:
+    enabled: false
+    feed_urls: []    # wewe-rss / wechat2rss 产出的公众号 RSS 地址
+
+schedule:
+  timezone: "Asia/Shanghai"   # 仅说明；实际调度时间在 workflow / 计划任务里设置
+  since_days: 7               # 每次检索最近 N 天
+
+digest:
+  top_n: 20                  # 每天最多推送条数
+  serendipity: 2             # 探索性推荐条数（与关键词无关，用于破茧房）
+  output_dir: "digest"
+
+anti_bubble:
+  interval_days: 7           # 每 N 天强制提示一次防信息茧房
+  suggest_keywords:          # 提示时建议补充的邻域/反向词
+    - "meta-analysis"
+    - "clinical trial"
+    - "review"
+
+notify:                      # 可选：每日推送通知（企业微信/钉钉/通用 webhook）
+  enabled: false
+  type: "wecom"              # wecom | dingtalk | generic
+  webhook_url: ""            # 机器人 webhook 地址
+
+journal_metrics:               # 期刊指标（影响因子/JCR分区/中科院分区）
+  data: "data/journal_metrics.csv"   # 由 scripts/fetch_journal_metrics.py 下载生成
+
+archive:
+  root: "library"
+  index: "data/index.json"
+  methods_index: "data/methods.json"
+
+llm:                        # 可选：OpenAI 兼容接口，用于 summarize.py --auto 自动填充
+  api_base: ""
+  api_key: ""
+  model: ""
