@@ -1,9 +1,9 @@
 {
-  "last_run": "2026-08-18T00:59:55",
+  "last_run": "2026-08-19T01:00:46",
   "last_explore_prompt": "2026-08-17",
   "liked_topics": [],
   "disliked_topics": [],
-  "seen_count": 66,
+  "seen_count": 88,
   "topic_distribution": {
     "Correlation": 1,
     "Head and neck squamous-cell carcinoma": 1,
@@ -18,12 +18,12 @@
     "Leptin receptor": 1,
     "Gene regulatory network": 1,
     "Inference": 1,
-    "Computer science": 3,
+    "Computer science": 4,
     "Fish <Actinopterygii>": 1,
     "Bonferroni correction": 1,
     "Analysis of variance": 1,
     "Confidence interval": 1,
-    "Artificial intelligence": 2,
+    "Artificial intelligence": 3,
     "Predictive modelling": 1,
     "Druggability": 1,
     "Candidate gene": 1,
@@ -37,11 +37,13 @@
     "Drug development": 1,
     "Cirrhosis": 1,
     "Biobank": 2,
-    "Machine learning": 1,
+    "Machine learning": 3,
     "Embedding": 1,
     "Classifier (UML)": 1,
     "Rheumatoid arthritis": 1,
-    "Metabolomics": 1
+    "Metabolomics": 1,
+    "Benchmarking": 1,
+    "Benchmark (surveying)": 1
   },
   "keyword_history": [
     "single-cell RNA-seq",
