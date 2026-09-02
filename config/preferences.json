@@ -1,14 +1,14 @@
 {
-  "last_run": "2026-09-01T03:21:36",
+  "last_run": "2026-09-02T02:39:24",
   "last_explore_prompt": "2026-08-31",
   "liked_topics": [],
   "disliked_topics": [],
-  "seen_count": 374,
+  "seen_count": 396,
   "topic_distribution": {
     "Correlation": 1,
     "Head and neck squamous-cell carcinoma": 1,
-    "Medicine": 10,
-    "Biology": 4,
+    "Medicine": 11,
+    "Biology": 5,
     "Fatty acid metabolism": 1,
     "Fatty acid": 1,
     "Transcriptome": 2,
@@ -44,7 +44,7 @@
     "Metabolomics": 1,
     "Benchmarking": 1,
     "Benchmark (surveying)": 1,
-    "Major depressive disorder": 1,
+    "Major depressive disorder": 2,
     "Biomarker": 1,
     "Knowledge management": 2,
     "Systemic inflammation": 1,
@@ -57,7 +57,10 @@
     "Biomarker discovery": 1,
     "Random forest": 1,
     "Categorical variable": 1,
-    "Engineering": 1
+    "Engineering": 1,
+    "Psychiatry": 1,
+    "Earth (classical element)": 1,
+    "Astrobiology": 1
   },
   "keyword_history": [
     "single-cell RNA-seq",
