@@ -1,9 +1,9 @@
 {
-  "last_run": "2026-09-06T02:42:26",
-  "last_explore_prompt": "2026-08-31",
+  "last_run": "2026-09-07T02:40:10",
+  "last_explore_prompt": "2026-09-07",
   "liked_topics": [],
   "disliked_topics": [],
-  "seen_count": 484,
+  "seen_count": 506,
   "topic_distribution": {
     "Correlation": 1,
     "Head and neck squamous-cell carcinoma": 1,
@@ -67,7 +67,10 @@
     "Procurement": 1,
     "Generalization": 1,
     "Precipitation": 1,
-    "Transformation (genetics)": 1
+    "Transformation (genetics)": 1,
+    "Immune system": 1,
+    "Immune dysregulation": 1,
+    "Psychology": 1
   },
   "keyword_history": [
     "single-cell RNA-seq",
