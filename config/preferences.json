@@ -1,13 +1,13 @@
 {
-  "last_run": "2026-09-16T03:08:09",
+  "last_run": "2026-09-17T03:12:18",
   "last_explore_prompt": "2026-09-14",
   "liked_topics": [],
   "disliked_topics": [],
-  "seen_count": 704,
+  "seen_count": 726,
   "topic_distribution": {
     "Correlation": 1,
     "Head and neck squamous-cell carcinoma": 1,
-    "Medicine": 12,
+    "Medicine": 13,
     "Biology": 5,
     "Fatty acid metabolism": 1,
     "Fatty acid": 1,
@@ -81,7 +81,9 @@
     "Deep learning": 2,
     "Data mining": 1,
     "Geostatistics": 1,
-    "GSM": 2
+    "GSM": 2,
+    "Logistic regression": 1,
+    "Diabetes mellitus": 1
   },
   "keyword_history": [
     "single-cell RNA-seq",
