@@ -1,13 +1,13 @@
 {
-  "last_run": "2026-09-27T03:25:55",
-  "last_explore_prompt": "2026-09-21",
+  "last_run": "2026-09-28T03:23:45",
+  "last_explore_prompt": "2026-09-28",
   "liked_topics": [],
   "disliked_topics": [],
-  "seen_count": 944,
+  "seen_count": 966,
   "topic_distribution": {
     "Correlation": 1,
     "Head and neck squamous-cell carcinoma": 1,
-    "Medicine": 16,
+    "Medicine": 17,
     "Biology": 6,
     "Fatty acid metabolism": 1,
     "Fatty acid": 1,
@@ -108,7 +108,9 @@
     "Fermentation": 1,
     "Process (computing)": 1,
     "Prostate cancer": 1,
-    "Annotation": 1
+    "Annotation": 1,
+    "Type 2 Diabetes Mellitus": 1,
+    "Incidence (geometry)": 1
   },
   "keyword_history": [
     "single-cell RNA-seq",
