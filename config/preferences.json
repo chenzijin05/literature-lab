@@ -1,13 +1,13 @@
 {
-  "last_run": "2026-10-07T04:04:46",
+  "last_run": "2026-10-08T04:17:14",
   "last_explore_prompt": "2026-10-05",
   "liked_topics": [],
   "disliked_topics": [],
-  "seen_count": 1164,
+  "seen_count": 1186,
   "topic_distribution": {
     "Correlation": 1,
     "Head and neck squamous-cell carcinoma": 1,
-    "Medicine": 17,
+    "Medicine": 18,
     "Biology": 6,
     "Fatty acid metabolism": 1,
     "Fatty acid": 1,
@@ -125,7 +125,9 @@
     "Health care": 1,
     "Autism spectrum disorder": 1,
     "Autism": 1,
-    "Software engineering": 1
+    "Software engineering": 1,
+    "Metabolite": 1,
+    "Myocardial infarction": 1
   },
   "keyword_history": [
     "single-cell RNA-seq",
